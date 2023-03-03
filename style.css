@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 100%;
+    background-image: radial-gradient(circle, #fcf7ff, #f6f3f9, #f0eff3, #ebeaec, #e6e6e6);}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+main{
+    width: 70%;
+    margin: 80px auto;
+    }
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 22px;
+}
+
+hr{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+.hr-projeto{
+    margin: 32px;
+}
+
+/*cor do link*/
+a {
+    color: black;
+  }
+  
+  /*cor do link ja visitado*/
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /*cor do link quando passa o mouse*/
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+.nome-pagina{
+    font-size: 42px;
+    margin-bottom: 56px;
+    margin-left: 32px;
+}
+
+.menu-item:hover{
+        text-decoration-line: overline;
+}
+
+.conteudo-descrito, .menu-item, .footer-conteudo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.conteudo-titulo{
+    font-size: 100px;
+    font-weight: 600;
+    color: #000000;
+    }
+
+.conteudo-subtitulo{
+    font-size: 22px;
+    color: #000000;
+}
+
+.curriculo-subtitulo{
+    font-size: 18px;
+    font-weight:normal;
+}
+
+.image-conteudo{
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    border-radius: 80%;
+    margin-right: 0%;
+}
+
+.curriculo-academico, .curriculo-profissional, .curriculo-skills{
+    font-size: 26px;
+    margin-left: 32px;
+    }
+
+.image-projeto{
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin-right: 0%;
+}
+
+.conteudo-principal, .projeto1, .projeto2, .projeto3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;    
+}
+
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+}
+
+.curriculo-escrito{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: 15%;
+    gap: 20px;
+}
+
+.conteudo-descrito{
+    text-align: justify;
+    color: #000000;    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 8px;
+}
+
+.footer-cabecalho{
+    font-size: 18px;
+}
+
+.footer-descricao{
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
